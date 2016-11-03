@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dank_me_bro"
+        android:layout_below="@+id/txt_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/txt_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:width="300dp"
+        android:inputType="text"
+        android:layout_below="@+id/txt_top"
+        android:layout_alignLeft="@+id/txt_top"
+        android:layout_alignStart="@+id/txt_top" />
+
+    <EditText
+        android:id="@+id/txt_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:width="300dp"
+        android:inputType="text"
+        android:theme="?attr/editTextStyle"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
